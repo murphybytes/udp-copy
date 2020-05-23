@@ -72,7 +72,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "udp-copy"
+name = "udpscp"
 version = "0.1.0"
 dependencies = [
  "clap",

@@ -1,5 +1,6 @@
 extern crate clap;
 use clap::{App, Arg};
+use udpscp::server::Listener;
 
 fn main() {
     let matches = App::new("udp-copy")
@@ -14,6 +15,7 @@ fn main() {
 
     if matches.is_present("server") {
         println!("server set");
+        let _l = Listener::new("127.0.0.1:8088".to_string());
     }               
 
 }

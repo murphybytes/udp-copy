@@ -1,5 +1,5 @@
 [package]
-name = "udp-copy"
+name = "udpscp"
 version = "0.1.0"
 authors = ["John Murphy <murphybytes@gmail.com>"]
 edition = "2018"
